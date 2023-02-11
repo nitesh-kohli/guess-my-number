@@ -52,7 +52,7 @@ document.querySelector('.check').addEventListener('click', function () {
     } else {
       // document.querySelector('.message').textContent = '💥 You lost the game!';
       displayMessage('💥 You lost the game!');
-      document.querySelector('body').style.backgroundColor = 'red';
+      document.querySelector('body').style.backgroundColor = '#FF0032';
       document.querySelector('.score').textContent = 0;
 
     }
@@ -92,7 +92,7 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.number').textContent = '?';
   document.querySelector('.guess').value = '';
 
-  document.querySelector('body').style.backgroundColor = 'rgb(228, 42, 218)';
+  document.querySelector('body').style.backgroundColor = '#7B2869';
   document.querySelector('.number').style.width = '15rem';
 });
 
